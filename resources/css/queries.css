@@ -1,0 +1,213 @@
+/* Big tablet to 1200px */
+
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row {
+        padding: 0 2%;
+    }
+}
+
+
+/* Small tablet to big tablet: from 768px to 1023px */
+
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+    section {
+        padding: 60px;
+    }
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .steps-box {
+        margin-top: 10px;
+    }
+    .steps-box:last-child {
+        margin-top: 10px
+    }
+    .works-steps {
+        margin-bottom: 40px
+    }
+    .works-steps:last-of-type {
+        margin-bottom: 60px
+    }
+    .works-step {
+        margin-bottom: 40px;
+    }
+    .city-info {
+        font-size: 90%;
+    }
+    .plan-box {
+        width: 100%;
+    }
+    .plan-price {
+        font-size: 250%;
+    }
+    .plan-box ul li {
+        font-size: 80%;
+    }
+    .contact-form {
+        width: 80%;
+    }
+    .main-nav{
+        display: inline-block;
+    }
+}
+
+
+/* Small phones to small tablets: from 481px to 767px */
+
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+    section {
+        padding: 30px 0;
+    }
+    .row,
+    .hero-text-box {
+        padding: 0 4%;
+    }
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0
+    }
+    .main-nav {
+        opacity: 0;
+    }
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+    .main-nav {
+        float: left;
+        margin-top: 20px;
+    }
+    .main-nav li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        border: 0;
+    }
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        padding: 16px 0;
+        color: #555;
+    }
+    .sticky .main-nav {
+        margin-top: 15px
+    }
+    #nav-icon1 {
+        width: 35px;
+        height: 25px;
+        position: relative;
+        margin: 20px auto;
+        margin-left: 90%;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+        cursor: pointer;
+    }
+    #nav-icon1 span {
+        display: block;
+        position: absolute;
+        height: 5px;
+        width: 100%;
+        background: #fff;
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+    }
+    #nav-icon1 span:nth-child(1) {
+        top: 0px;
+    }
+    #nav-icon1 span:nth-child(2) {
+        top: 12px;
+    }
+    #nav-icon1 span:nth-child(3) {
+        top: 24px;
+    }
+    #nav-icon1.open span:nth-child(1) {
+        top: 18px;
+        -webkit-transform: rotate(135deg);
+        transform: rotate(135deg);
+    }
+    #nav-icon1.open span:nth-child(2) {
+        opacity: 0;
+        left: -60px;
+    }
+    #nav-icon1.open span:nth-child(3) {
+        top: 18px;
+        -webkit-transform: rotate(-135deg);
+        transform: rotate(-135deg);
+    }
+    
+    .sticky #nav-icon1 span {
+        display: block;
+        position: absolute;
+        height: 5px;
+        width: 100%;
+        background: #e67e22;
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+    }
+    
+    
+    .long-copy {
+        width: 100%;
+        margin: 20px 0;
+        font-size: 120%
+    }
+    .box h3 {
+        text-align: center;
+    }
+    .box p {
+        font-size: 110%;
+    }
+    .works-step {
+        margin-bottom: 30px
+    }
+    blockquote:before {
+        top: 5px;
+    }
+    blockquote {
+        margin-bottom: 20px;
+    }
+    .plan-box {
+        width: 90%;
+    }
+    .plan-box h3 {
+        text-align: center
+    }
+    .plan-price {
+        text-align: center
+    }
+    .plan-price-meal {
+        text-align: center;
+        font-size: 100%
+    }
+    .plan-box ul li {
+        font-size: 110%;
+    }
+}
+
+
+/* Small phones: from 0 to 480px*/
+
+@media only screen and (max-width: 480px) {}
